@@ -194,7 +194,7 @@ export const portfolioData: PortfolioData = {
       description: [
         "Mining on Bittensor's SN74 Gittensor subnet by contributing merged PRs to whitelisted open source repositories, earning TAO alpha token emissions based on code quality and credibility scores.",
         "Contributed bug fixes and feature improvements to hot repositories, including resolving credibility display mismatches, dependency conflicts, and memoization bugs in Rails-based financial dashboards.",
-        "Managed Bittensor wallet infrastructure using `btcli`, including coldkey/hotkey configuration, TAO deposits, and subnet registration on the Bittensor mainnet.",
+        "Managed Bittensor wallet infrastructure using btcli, including coldkey/hotkey configuration, TAO deposits, and subnet registration on the Bittensor mainnet.",
       ],
     },
     {
