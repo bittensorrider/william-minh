@@ -68,11 +68,6 @@ export const portfolioData: PortfolioData = {
       url: "https://github.com/bittensorrider",
       icon: "Github",
     },
-    // {
-    //   platform: "LinkedIn",
-    //   url: "https://www.linkedin.com/in/weiming-william-78a93840a/",
-    //   icon: "Linkedin",
-    // },
     {
       platform: "X",
       url: "https://x.com/bittensorrider",
@@ -83,11 +78,6 @@ export const portfolioData: PortfolioData = {
       url: "https://instagram.com/bittensorrider",
       icon: "Instagram",
     },
-    // {
-    //   platform: "Reddit",
-    //   url: "https://www.reddit.com/user/bittensorrider/",
-    //   icon: "Reddit",
-    // },
     {
       platform: "Discord",
       url: "https://discord.gg/M4pJbNhQc",
@@ -197,6 +187,16 @@ export const portfolioData: PortfolioData = {
     ],
   },
   experience: [
+    {
+      company: "Bittensor Network - SN74 Gittensor (Decentralized)",
+      role: "Open Source Miner & Contributor (Full-Remote)",
+      period: "April, 2026 - Present",
+      description: [
+        "Mining on Bittensor's SN74 Gittensor subnet by contributing merged PRs to whitelisted open source repositories, earning TAO alpha token emissions based on code quality and credibility scores.",
+        "Contributed bug fixes and feature improvements to hot repositories, including resolving credibility display mismatches, dependency conflicts, and memoization bugs in Rails-based financial dashboards.",
+        "Managed Bittensor wallet infrastructure using `btcli`, including coldkey/hotkey configuration, TAO deposits, and subnet registration on the Bittensor mainnet.",
+      ],
+    },
     {
       company: "Optlynx Co.,Ltd. - Japan",
       role: "Senior Software Engineer (Full-Remote)",
