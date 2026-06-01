@@ -250,6 +250,23 @@ export const portfolioData: PortfolioData = {
   ],
   projects: [
     {
+      title: "Sure - Personal Finance for Everyone",
+      description:
+        "Sure is an open-source personal finance app built with Ruby on Rails. As a Gittensor SN74 miner, I contributed a memoization optimization to net_category_totals() using explicit cache-key presence checks, which was officially included in the Sure v0.7.1 release — Bank Sync cleanup, Statement Vault and DS overhaul.",
+      techStack: [
+        "Ruby on Rails",
+        "Bittensor",
+        "Gittensor",
+        "Minitest",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Hotwire",
+      ],
+      link: "https://github.com/we-promise/sure/discussions/2067",
+      github: "https://github.com/we-promise/sure/pull/1881",
+      thumbnail: "/images/projects/gittensor-sure.png",
+    },
+    {
       title: "UXBIT - Trade Smarter, Faster, Safer",
       description:
         "UXBIT is The Global Standard for Borderless Crypto Trading. With UXBIT, you can manage Bitcoin (BTC), Ethereum (ETH), and Tether (USDT) from one platform, making it easier to track, trade, and grow your portfolio.",
