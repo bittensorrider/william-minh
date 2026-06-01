@@ -1,12 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { TbBrandGithub, TbExternalLink } from "react-icons/tb";
 import Link from "next/link";
 import Image from "next/image";
 
 import { Project } from "@/data/portfolio";
+import { ImageLightbox } from "@/components/ui/ImageLightbox";
 
 export const ProjectCard = React.memo(function ProjectCard({
   project,
@@ -15,6 +16,8 @@ export const ProjectCard = React.memo(function ProjectCard({
   project: Project;
   index: number;
 }) {
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -24,16 +27,28 @@ export const ProjectCard = React.memo(function ProjectCard({
       className="group relative bg-slate-800/30 rounded-2xl overflow-hidden border border-slate-800 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 hover:-translate-y-2 flex flex-col"
     >
       {/* Image Container */}
-      <div className="relative aspect-video w-full overflow-hidden flex-shrink-0">
+      <button
+        type="button"
+        onClick={() => setIsLightboxOpen(true)}
+        className="relative aspect-video w-full overflow-hidden shrink-0 cursor-zoom-in"
+        aria-label={`View ${project.title} screenshot`}
+      >
         <Image
           src={project.thumbnail}
           alt={project.title}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover"
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
         />
-      </div>
+      </button>
+
+      <ImageLightbox
+        src={project.thumbnail}
+        alt={project.title}
+        isOpen={isLightboxOpen}
+        onClose={() => setIsLightboxOpen(false)}
+      />
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
