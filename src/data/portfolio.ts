@@ -262,8 +262,8 @@ export const portfolioData: PortfolioData = {
         "Tailwind CSS",
         "Hotwire",
       ],
-      link: "https://github.com/we-promise/sure/discussions/2067",
-      github: "https://github.com/we-promise/sure/pull/1881",
+      link: "https://sure.am/",
+      github: "https://github.com/we-promise/sure/discussions/2067",
       thumbnail: "/images/projects/gittensor-sure.png",
     },
     {
