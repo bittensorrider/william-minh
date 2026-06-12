@@ -69,6 +69,11 @@ export const portfolioData: PortfolioData = {
       icon: "Github",
     },
     {
+      platform: "LindedIn",
+      url: "https://www.linkedin.com/in/william-w-ming-868219416/",
+      icon: "Linkedin",
+    },
+    {
       platform: "X",
       url: "https://x.com/bittensorrider",
       icon: "Twitter",
@@ -77,11 +82,6 @@ export const portfolioData: PortfolioData = {
       platform: "Instagram",
       url: "https://instagram.com/bittensorrider",
       icon: "Instagram",
-    },
-    {
-      platform: "Discord",
-      url: "https://discord.gg/M4pJbNhQc",
-      icon: "Discord",
     },
     {
       platform: "WhatsApp",
@@ -282,7 +282,7 @@ export const portfolioData: PortfolioData = {
         "Nginx",
       ],
       link: "https://uxbit.wtf",
-      github: "https://github.com/ultimodevboris/uxbit_lp_next",
+      github: "https://github.com/dvtech888/uxbit_lp_next",
       thumbnail: "/images/projects/uxbit.jpeg",
     },
     {
@@ -301,7 +301,7 @@ export const portfolioData: PortfolioData = {
         "Cryptocurrency",
       ],
       link: "https://ultimopay.io/",
-      github: "https://github.com/ultimodevboris/ultimopay_v4",
+      github: "https://github.com/dvtech888/ultimopay_v4",
       thumbnail: "/images/projects/ultimo.png",
     },
     {
@@ -319,7 +319,7 @@ export const portfolioData: PortfolioData = {
         "Nginx",
       ],
       link: "https://www.drapefit.com/",
-      github: "",
+      github: "https://github.com/dvtech888/drapefit-web",
       thumbnail: "/images/projects/drapefit.jpg",
     },
     {
