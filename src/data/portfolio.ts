@@ -47,7 +47,7 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   name: "William Wei Ming",
   role: "Full-Stack Architect | SWE | Trust Dev",
-  about: "Hi 👋 I’m William from Malaysia 🇲🇾",
+  about: "Hi 👋 I’m William from Dublin, Ireland 🇮🇪",
   aboutArr: [
     "🏆 Senior Full-Stack Engineer 👨‍💻",
     "🚀 Build Scalable Systems ⚙️",
@@ -55,10 +55,9 @@ export const portfolioData: PortfolioData = {
     "🎲 Turn Complexity Into Elegance 🎯",
     "💬 Strong Async Communication 🤝",
     "🌱 Startup Experiences With Clients 💼",
-    "🇺🇸 US Timezone Friendly ⏰",
     "🌐 Remote Contractor 📡",
-    "🧠 Bittensor Rider 🚴‍♀️",
-    "🏠 Based in Selangor, Malaysia 🇲🇾",
+    "🧠 OpenSource Miner 🏃‍♂️",
+    "🏠 Based in Dublin, Ireland 🇮🇪",
   ],
   profileImage: "/images/profile.jpg",
   blogUrl: "https://medium.com/@bittensorrider",
