@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://william-minh.vercel.app/"),
+  metadataBase: new URL("https://williamweiming.com/"),
   title: {
     template: `%s | ${portfolioData.name}`,
     default: `${portfolioData.name} - ${portfolioData.role}`,
@@ -37,14 +37,11 @@ export const metadata: Metadata = {
     "Turn Complexity Into Elegance",
     "Strong Async Communication",
     "Startup Experiences With Clients",
-    "US Timezone Friendly",
     "Remote Contractor",
-    "Bittensor Rider",
+    "OpenSource Miner",
     "Based in Selangor, Malaysia",
   ],
-  authors: [
-    { name: portfolioData.name, url: "https://william-minh.vercel.app/" },
-  ],
+  authors: [{ name: portfolioData.name, url: "https://williamweiming.com/" }],
   creator: portfolioData.name,
   publisher: portfolioData.name,
   formatDetection: {
@@ -55,13 +52,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://william-minh.vercel.app/",
+    url: "https://williamweiming.com/",
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     siteName: `${portfolioData.name} Portfolio`,
     images: [
       {
-        url: "https://william-minh.vercel.app/images/profile.jpg",
+        url: "https://williamweiming.com/images/profile.jpg",
         width: 1374,
         height: 1374,
         alt: `${portfolioData.name} - ${portfolioData.role}`,
@@ -73,7 +70,7 @@ export const metadata: Metadata = {
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     creator: "@lordarcadius",
-    images: ["https://william-minh.vercel.app/images/profile.jpg"],
+    images: ["https://williamweiming.com/images/profile.jpg"],
   },
   robots: {
     index: true,

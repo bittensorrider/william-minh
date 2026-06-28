@@ -9,8 +9,8 @@ export function StructuredData() {
     name: portfolioData.name,
     jobTitle: portfolioData.role,
     description: portfolioData.about,
-    url: "https://william-minh.vercel.app/",
-    image: "https://william-minh.vercel.app/images/profile.jpg",
+    url: "https://williamweiming.com/",
+    image: "https://williamweiming.com/images/profile.jpg",
     sameAs: portfolioData.social
       .filter((s) => s.platform !== "Email")
       .map((s) => s.url),
@@ -34,7 +34,7 @@ export function StructuredData() {
     "@type": "WebSite",
     name: `${portfolioData.name} Portfolio`,
     description: portfolioData.about,
-    url: "https://william-minh.vercel.app/",
+    url: "https://williamweiming.com/",
     author: {
       "@type": "Person",
       name: portfolioData.name,
