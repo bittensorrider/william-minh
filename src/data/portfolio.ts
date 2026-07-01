@@ -249,7 +249,25 @@ export const portfolioData: PortfolioData = {
   ],
   projects: [
     {
-      title: "Sure - Personal Finance for Everyone",
+      title: "Sure - Personal Finance for Everyone | v0.7.2",
+      description:
+        "Sure is an open-source personal finance app built with Ruby on Rails. As a Gittensor SN74 miner, I contributed three merged PRs to the Sure v0.7.2 release — Goals, mobile polish and native Anthropic support: dashboard endpoint performance optimization, Income Statement query performance fixes, and HTTP timeout configuration for the GitHub Octokit provider client.",
+      techStack: [
+        "Ruby on Rails",
+        "Bittensor",
+        "Gittensor",
+        "Minitest",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Hotwire",
+        "Anthropic",
+      ],
+      link: "https://sure.am/",
+      github: "https://github.com/we-promise/sure/discussions/2540",
+      thumbnail: "/images/projects/gittensor-sure-v072.png",
+    },
+    {
+      title: "Sure - Personal Finance for Everyone | v0.7.1",
       description:
         "Sure is an open-source personal finance app built with Ruby on Rails. As a Gittensor SN74 miner, I contributed a memoization optimization to net_category_totals() using explicit cache-key presence checks, which was officially included in the Sure v0.7.1 release — Bank Sync cleanup, Statement Vault and DS overhaul.",
       techStack: [
