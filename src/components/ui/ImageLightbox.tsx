@@ -54,7 +54,7 @@ export function ImageLightbox({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8"
+          className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4"
           onClick={onClose}
         >
           <div className="absolute inset-0 bg-black/90 backdrop-blur-sm" />
@@ -73,15 +73,15 @@ export function ImageLightbox({
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.95, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="relative z-10 flex max-h-[90vh] max-w-[90vw] items-center justify-center"
+            className="relative z-10 h-[96vh] w-[96vw]"
             onClick={(event) => event.stopPropagation()}
           >
             <Image
               src={src}
               alt={alt}
-              width={1920}
-              height={1080}
-              className="max-h-[90vh] max-w-[90vw] w-auto h-auto object-contain rounded-lg"
+              fill
+              sizes="96vw"
+              className="object-contain rounded-lg"
               priority
             />
           </motion.div>
