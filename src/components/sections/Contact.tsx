@@ -54,7 +54,7 @@ export const ContactSection = React.memo(function ContactSection() {
           setFormState("error");
           setTimeout(() => setFormState("idle"), 5000);
         }
-      } catch (error) {
+      } catch {
         setFormState("error");
         setTimeout(() => setFormState("idle"), 5000);
       }
@@ -82,7 +82,7 @@ export const ContactSection = React.memo(function ContactSection() {
           >
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-slate-100">
-                Let me know about your next project, if you don't mind
+                Let me know about your next project, if you don&apos;t mind
               </h3>
               <p className="text-slate-400">
                 Feel free to reach out for collaborations, freelance projects,
@@ -200,7 +200,7 @@ export const ContactSection = React.memo(function ContactSection() {
                 <div className="flex items-center gap-2 text-green-400 bg-green-400/10 border border-green-400/20 rounded-lg px-4 py-3">
                   <TbCircleCheck size={20} />
                   <span>
-                    Message sent successfully! I'll get back to you soon.
+                    Message sent successfully! I&apos;ll get back to you soon.
                   </span>
                 </div>
               )}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
@@ -13,17 +13,21 @@ interface ImageLightboxProps {
   onClose: () => void;
 }
 
+// Never re-subscribes: the snapshot flips from false (server) to true (client)
+// once, on hydration. Lets us defer createPortal until `document` exists.
+const subscribeToNothing = () => () => {};
+
 export function ImageLightbox({
   src,
   alt,
   isOpen,
   onClose,
 }: ImageLightboxProps) {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useSyncExternalStore(
+    subscribeToNothing,
+    () => true,
+    () => false,
+  );
 
   useEffect(() => {
     if (!isOpen) return;

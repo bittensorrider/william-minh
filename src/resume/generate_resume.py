@@ -303,7 +303,7 @@ def build_html() -> str:
     </div>
     <ul>
       <li>Mining on Bittensor's SN74 Gittensor subnet by contributing merged PRs to whitelisted open source repositories, earning TAO alpha token emissions based on code quality and credibility scores.</li>
-      <li>Contributed bug fixes and feature improvements to hot repositories — including <strong>Sure v0.7.1–v0.7.3</strong> performance work (memoization, N+1 query fixes, and controller optimizations on categories, accounts, and transactions).</li>
+      <li>Contributed bug fixes and feature improvements to hot repositories — <strong>18 merged PRs across Sure v0.7.1–v0.7.4</strong>, ranking <strong>#11</strong> on the Gittensor leaderboard for v0.7.4 with 11 merged PRs (transfer tags, transaction rule operators, N+1 query fixes, Design System &amp; i18n cleanups).</li>
       <li>Managed Bittensor wallet infrastructure using btcli, including coldkey/hotkey configuration, TAO deposits, and subnet registration on the Bittensor mainnet.</li>
     </ul>
   </div>

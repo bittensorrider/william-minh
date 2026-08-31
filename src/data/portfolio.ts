@@ -197,7 +197,7 @@ export const portfolioData: PortfolioData = {
       period: "April, 2026 - Present",
       description: [
         "Mining on Bittensor's SN74 Gittensor subnet by contributing merged PRs to whitelisted open source repositories, earning TAO alpha token emissions based on code quality and credibility scores.",
-        "Contributed bug fixes and feature improvements to hot repositories, including resolving credibility display mismatches, dependency conflicts, and memoization bugs in Rails-based financial dashboards.",
+        "Contributed bug fixes and feature improvements to hot repositories — including 11 merged PRs in the Sure v0.7.4 release (ranked #11 on the Gittensor leaderboard) covering transfer tags, transaction rule operators, N+1 query fixes, and Design System/i18n cleanups.",
         "Managed Bittensor wallet infrastructure using btcli, including coldkey/hotkey configuration, TAO deposits, and subnet registration on the Bittensor mainnet.",
       ],
     },
@@ -272,6 +272,25 @@ export const portfolioData: PortfolioData = {
     },
   ],
   projects: [
+    {
+      title: "Sure - Personal Finance for Everyone | v0.7.4",
+      description:
+        "Sure is an open-source personal finance app built with Ruby on Rails. As a Gittensor SN74 miner, I ranked #11 on the leaderboard for the Sure v0.7.4 release — Passkeys, the unified /plan area (budgets + goals) and more — with 11 merged PRs (17 commits, 1,576 additions): tags support for transfer transactions, an “Is not equal to” operator for transaction amount rules, clickable report income/expense categories, an N+1 fix preloading transfer counterparty associations, rolling insight period labels on month boundaries, plus Design System (DS Drift Patrol) and i18n cleanups.",
+      techStack: [
+        "Ruby on Rails",
+        "ActiveRecord",
+        "PostgreSQL",
+        "Hotwire",
+        "Tailwind CSS",
+        "Minitest",
+        "i18n",
+        "Bittensor",
+        "Gittensor",
+      ],
+      link: "https://sure.am/",
+      github: "https://github.com/we-promise/sure/discussions/3286",
+      thumbnail: "/images/projects/gittensor-sure-v074.png",
+    },
     {
       title: "Sure - Personal Finance for Everyone | v0.7.3",
       description:
